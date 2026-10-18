@@ -1,0 +1,2 @@
+alert tcp 192.168.56.104 any -> 192.168.56.108 443 (msg:"LOCAL LAB Kali TCP SYN probe to Ubuntu HTTPS"; flags:S; flow:stateless; sid:1000001; rev:2;)
+alert tcp 192.168.56.104 any -> 192.168.56.108 any (msg:"LOCAL LAB Kali TCP SYN probe to Ubuntu any port"; flags:S; flow:stateless; sid:1000002; rev:1;) 
