@@ -17,10 +17,10 @@ A hands-on cybersecurity lab built to practise security monitoring, log analysis
 - Captured screenshots and documented results.
 
 ## Repository Structure
-- `Report/` – Final project report
-- `Screenshots/` – Evidence from lab activities
-- `Diagram/` – Lab architecture diagram
-- `Rules/` – Custom Suricata and Wazuh rules
+- [`Report/`](Report/) – Final project report
+- [`Screenshots/`](Screenshots/) – Evidence from lab activities
+- [`Diagram/`](Diagram/) – Lab architecture diagram
+- [`Rules/`](Rules/) – Custom Suricata and Wazuh rules
 
 ## Disclaimer
 This lab was conducted in a controlled virtual environment for educational purposes. All testing was performed against lab systems.
